@@ -1,47 +1,29 @@
-
-@import url(//db.onlinewebfonts.com/c/0376a58122a881d16a294512d3c947b1?family=ProximaNova-Regular);
-@import url(//db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy+SemiBold);
-@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
 @font-face {
-  font-family: 'VAGRON';
-  src: url('fonts/VAGRON.TTF ') format('truetype');
+    font-family: 'VAGRounded-BT';
+    src: url('fonts/VAGRounded-BT.TTF');
 }
-
-@font-face {font-family: "Gilroy SemiBold";
-    src: url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot"); /* IE9*/
-    src: url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.svg#Gilroy SemiBold") format("svg"); /* iOS 4.1- */
-}
-
-
 
 @font-face {
-  font-family: 'Proxima-regular';
-  src: url('Proxima-Nova.tff') format('truetype');
+    font-family: 'ProximaNova-Regular';
+    src: url('fonts/FontsFree-Net-ProximaNova-Regular.ttf');
 }
-h1 {
-
-  font-family: 'VAGRON';
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('fonts/gilroy/Gilroy-Medium.ttf');
 }
-h2 {
-font-family:"Proxima";
+@font-face {
+    font-family: 'ProximaNova-Bold';
+    src: url('fonts/FontsFree-Net-Proxima-Nova-Bold.otf');
+}
+@font-face {
+    font-family: 'ProximaNovaSoftW03-Regular';
+    src: url('fonts/FontsFree-Net-Proxima-Nova-Soft-W03-Regular.ttf');
 }
 
-.contact {
-font-family: "Gilroy SemiBold"
+@font-face {
+    font-family: 'Proxima Nova italic';
+    src: url('fonts/');
 }
-.submit {
-font-family: 'Pontano Sans', sans-serif;}
-
-
-
-
-
-
-
 
 
 /* Defaults */
@@ -85,7 +67,7 @@ header nav ul .navRight {
 header nav ul li a {
     font-weight: 400;
     text-decoration: none;
-    font-family: 'ProximaNova-Regular' , sans-serif;
+    font-family:  , sans-serif;
     color : #fff;
     font-size : 12px;
 
@@ -94,7 +76,7 @@ header nav ul li a {
  .logo {
     padding-left : 20px;
     font-size : 44px;
-    font-family: 'VAGRounded BT' ,sans-serif;
+    font-family: 'VAGRounded-BT' ,sans-serif;
     color : #fff;
     text-decoration: none;
     font-weight: 400;
@@ -134,7 +116,7 @@ header nav .navRight a {
     justify-content: center;
     align-items: center;
     line-height: 1.8;
-    font-family: '  ProximaNova-Regular';
+    font-family: 'ProximaNova-Regular';
 
 }
 .container-Header h1 {
@@ -142,7 +124,7 @@ header nav .navRight a {
     font-size : 55px ;
     word-spacing: 15px;
     letter-spacing: 2%;
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Medium';
     font-weight: 600;
     text-transform: uppercase;
     color : #fff;
