@@ -1,0 +1,357 @@
+
+@import url(//db.onlinewebfonts.com/c/0376a58122a881d16a294512d3c947b1?family=ProximaNova-Regular);
+@import url(//db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy+SemiBold);
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+@font-face {
+  font-family: 'VAGRON';
+  src: url('fonts/VAGRON.TTF ') format('truetype');
+}
+
+@font-face {font-family: "Gilroy SemiBold";
+    src: url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.svg#Gilroy SemiBold") format("svg"); /* iOS 4.1- */
+}
+
+
+
+@font-face {
+  font-family: 'Proxima-regular';
+  src: url('Proxima-Nova.tff') format('truetype');
+}
+h1 {
+
+  font-family: 'VAGRON';
+}
+h2 {
+font-family:"Proxima";
+}
+
+.contact {
+font-family: "Gilroy SemiBold"
+}
+.submit {
+font-family: 'Pontano Sans', sans-serif;}
+
+
+
+
+
+
+
+
+
+/* Defaults */
+
+
+* {
+    padding: 0 ;
+    margin : 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.highlight-color {color :#E7BFA6}
+/* Defaults end*/
+
+
+header {
+    width : 100%;
+    height: 40vh;
+    background-color: #F28E58;
+}
+header nav {
+    width: 100%;
+    padding-top : 20px;
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+header nav ul  li{
+    list-style: none;
+    float : left ;  
+    margin-right : 50px;
+    margin-left : 50px;
+}
+header nav ul .navRight {
+    justify-self: flex-end;
+    
+}
+
+
+header nav ul li a {
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'ProximaNova-Regular' , sans-serif;
+    color : #fff;
+    font-size : 12px;
+
+}
+
+ .logo {
+    padding-left : 20px;
+    font-size : 44px;
+    font-family: 'VAGRounded BT' ,sans-serif;
+    color : #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+header nav .navRight a {
+    font-weight: 400;
+    color :#fff;
+    font-size : 10px;
+    font-family: 'ProximaNova-Regular' , sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navRight {
+    display: inline-flex;
+    margin-left : 5vw;
+}
+
+.navRight span {
+    margin-right :20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.navRight span:first-child {background-color:#031C26;  width :180px; height:  60px; border-radius:  11.8px;cursor: pointer; }
+.navRight span:nth-child(2){border: 5px solid #FFFFFF;width :140px; height:  60px; border-radius:  11.8px;cursor: pointer;}
+.navRight span:first-child:hover{background:#404040;}
+
+/* container header */
+.container-Header {
+    display: flex;
+    flex-flow : column;
+    width : 100% ;
+    height:75% ;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+    font-family: '  ProximaNova-Regular';
+
+}
+.container-Header h1 {
+    letter-spacing: 2px;
+    font-size : 55px ;
+    word-spacing: 15px;
+    letter-spacing: 2%;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    text-transform: uppercase;
+    color : #fff;
+}
+.container-header-qoute {font-size : 14px;color :#4B3327;word-spacing: 2px; letter-spacing: 2%;}
+/* container header end */
+.container {
+    margin-top : 10vh;
+    width : 100%;
+    height: 70vh;
+    font-family: 'ProximaNovaSoftW03-Regular';
+}
+.top-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/* left section container */
+
+.left-section {
+    margin-left :5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+ .sections-titles  {
+    color : #70B3CE ;
+    font-size : 20px;
+    font-weight: 600;
+}
+ .section-parag {
+    line-height: 1.5;
+    color :#4E4E4E;
+    font-size : 14px;
+    word-spacing: 4px;
+    margin-top : 12px;
+  
+}
+
+/* contact form */
+
+.contact-form {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    padding-left : 5vw;
+ }
+ 
+ input[type=text] {
+     width : 35vw;
+     height: 3.4vh;
+     margin-top : 20px;
+     border: 1.5px solid #bbbbc0;
+     border-radius: 8px;
+ }
+ input[type=text],select ,textarea{
+     padding : 16px  ;
+     font-size : 14px;
+     font-family: 'Proxima Nova';
+     font-weight: lighter;
+     font-style: italic;
+     color : #bbbbc0;
+ }
+ 
+ textarea {
+    width : 35vw;
+    height: 187px;
+    margin-top : 20px;
+    border: 1.5px solid #bbbbc0;
+    border-radius: 8px;
+    resize: none;
+}
+
+textarea::placeholder{
+    padding : 16px  28px;
+    font-size : 14px;
+    font-family: 'Proxima Nova';
+    font-weight: lighter;
+    font-style: italic;
+    padding-top: 1000px;
+
+}
+
+input[type=submit]{
+    width : 9vw;
+    height: 8vh;
+    font-size : 12px;
+    letter-spacing: 2px;
+    color : #fff;
+    text-transform: uppercase;
+    align-self: flex-end;
+    margin-right : 91.1px;
+    margin-top : 20px;
+    background-color: #f39b6b;
+    border-radius: 8px;
+    border : none;
+    cursor: pointer;
+}
+
+/* contact form end */
+
+/* left section container end */
+
+/* right section container */
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    padding-left : 5vw;
+    
+}
+
+/* social media container section*/
+.social-media-title {
+    font-family: 'ProximaNovaSoftW03-Regular',sans-serif;
+    margin-top : 5vh;
+    color : #000;
+    font-weight: 300;
+    font-size : 23px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.social-median-section {
+    margin-top: 2em;}
+
+
+
+.image-and-parag  {
+
+    margin-top : 28px;
+    display: flex;
+    justify-content: flex-start;
+    width : 100%;    
+}
+
+.social-img {
+    margin-left : -20px;
+    width : 6vw;
+    height: 6vh;
+}
+.social-parag{
+ 
+    color : #4E4E4E;
+    font-size : 14px;
+    line-height: 1.5;
+}
+
+/* secial media container section end*/
+/* right section container end */
+
+/* footer section */
+
+footer {
+    margin-top : 100px;
+    width : 100%;
+    height: 25vh;
+    background-color :#404040;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer ul{margin-top : 30px;}
+footer ul li {list-style: none;}
+footer ul li:first-child  a{
+    font-family: 'ProximaNovaSoftW03-Regular' ,sans-serif;
+    color :#fff;}
+footer ul li a {
+    padding-top : 10px;
+    color :#888888;
+    font-weight: 400;
+    font-family: 'ProximaNova-Regular', sans-serif;
+    font-size : 12px;
+}
+
+footer ul li a i {
+    color : #F39B6B;
+    font-size : 18px;
+    padding-right :5px;
+}
+.footer-social-media-icons {padding-top:8px;}
+
+
+.last-footer-item:last-child  {
+    margin-top : 20px;
+    background-color : #032030;
+    border-radius: 8px;
+    height: 53px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Landing-page-button{
+padding-bottom : 6px;
+text-transform: uppercase;
+font-family: 'ProximaNova-Regular';
+color : #fff;
+font-size : 9px;
+line-height: 1.5;
+font-weight: 400;
+letter-spacing: 1.4px;
+}
+/* background-color:#031C26;  width :180px; height:  60px; border-radius:  11.8px;cursor: pointer;  */
+
+
+/* footer section end */

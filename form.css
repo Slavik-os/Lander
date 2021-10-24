@@ -1,0 +1,22 @@
+
+
+.left-section {
+   display: flex;
+   flex-direction: column;
+   padding-left : 5vw;
+}
+
+input[type=text] {
+    width : 35vw;
+    height: 3.4vh;
+    margin-top : 20px;
+    border: 1.5px solid #C5C5CD;
+    border-radius: 8px;
+}
+input[type=text],select {
+    padding : 14px 28px ;
+    font-size : 14px;
+    font-family: 'Proxima Nova';
+    font-weight: lighter;
+    font-style: italic;
+}
