@@ -67,25 +67,29 @@ header nav ul .navRight {
 header nav ul li a {
     font-weight: 400;
     text-decoration: none;
-    font-family:  , sans-serif;
+    font-family: 'ProximaNova-Regular' , sans-serif;
     color : #fff;
-    font-size : 12px;
+    font-size : 16px;
+
 
 }
 
+.logo img {
+   width : 9em;
+}
  .logo {
-    padding-left : 20px;
-    font-size : 44px;
+    position :static ;
+    top :   10px;
     font-family: 'VAGRounded-BT' ,sans-serif;
     color : #fff;
     text-decoration: none;
     font-weight: 400;
-}
+ }  
 
 header nav .navRight a {
     font-weight: 400;
     color :#fff;
-    font-size : 10px;
+    font-size : 0.8em;
     font-family: 'ProximaNova-Regular' , sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -121,7 +125,7 @@ header nav .navRight a {
 }
 .container-Header h1 {
     letter-spacing: 2px;
-    font-size : 55px ;
+    font-size : 60px ;
     word-spacing: 15px;
     letter-spacing: 2%;
     font-family: 'Gilroy-Medium';
@@ -129,7 +133,7 @@ header nav .navRight a {
     text-transform: uppercase;
     color : #fff;
 }
-.container-header-qoute {font-size : 14px;color :#4B3327;word-spacing: 2px; letter-spacing: 2%;}
+.container-header-qoute {font-size : 18px;color :#4B3327;word-spacing: 2px; letter-spacing: 2%;}
 /* container header end */
 .container {
     margin-top : 10vh;
@@ -151,13 +155,13 @@ header nav .navRight a {
 
  .sections-titles  {
     color : #70B3CE ;
-    font-size : 20px;
+    font-size : 25px;
     font-weight: 600;
 }
  .section-parag {
     line-height: 1.5;
     color :#4E4E4E;
-    font-size : 14px;
+    font-size : 18px;
     word-spacing: 4px;
     margin-top : 12px;
   
@@ -216,7 +220,7 @@ textarea::placeholder{
 input[type=submit]{
     width : 9vw;
     height: 8vh;
-    font-size : 12px;
+    font-size : 15px;
     letter-spacing: 2px;
     color : #fff;
     text-transform: uppercase;
@@ -247,7 +251,7 @@ input[type=submit]{
     font-family: 'ProximaNovaSoftW03-Regular',sans-serif;
     margin-top : 5vh;
     color : #000;
-    font-weight: 300;
+    font-weight: 400;
     font-size : 23px;
     letter-spacing: 2px;
     word-spacing: 2px;
@@ -258,7 +262,6 @@ input[type=submit]{
 
 
 .image-and-parag  {
-
     margin-top : 28px;
     display: flex;
     justify-content: flex-start;
@@ -266,14 +269,14 @@ input[type=submit]{
 }
 
 .social-img {
-    margin-left : -20px;
-    width : 6vw;
-    height: 6vh;
+    margin-left : -40px;
+    width : 6.8vw;
+    height: 6.8vh;
 }
 .social-parag{
  
     color : #4E4E4E;
-    font-size : 14px;
+    font-size : 18px;
     line-height: 1.5;
 }
 
@@ -285,23 +288,23 @@ input[type=submit]{
 footer {
     margin-top : 100px;
     width : 100%;
-    height: 25vh;
+    height: 27vh;
     background-color :#404040;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 footer ul{margin-top : 30px;}
-footer ul li {list-style: none;}
+footer ul li {list-style: none; padding-top : 4px;}
 footer ul li:first-child  a{
     font-family: 'ProximaNovaSoftW03-Regular' ,sans-serif;
     color :#fff;}
 footer ul li a {
-    padding-top : 10px;
+    padding-top : 10px !important;
     color :#888888;
     font-weight: 400;
     font-family: 'ProximaNova-Regular', sans-serif;
-    font-size : 12px;
+    font-size : 15px !important;
 }
 
 footer ul li a i {
@@ -313,27 +316,44 @@ footer ul li a i {
 
 
 .last-footer-item:last-child  {
-    margin-top : 20px;
+    margin-top : 40px;
     background-color : #032030;
     border-radius: 8px;
     height: 53px;
-    width: 160px;
+    width: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 .Landing-page-button{
-padding-bottom : 6px;
+padding-bottom : 12px;
 text-transform: uppercase;
 font-family: 'ProximaNova-Regular';
 color : #fff;
-font-size : 9px;
-line-height: 1.5;
+font-size : 12px !important;
 font-weight: 400;
 letter-spacing: 1.4px;
 }
 /* background-color:#031C26;  width :180px; height:  60px; border-radius:  11.8px;cursor: pointer;  */
 
-
 /* footer section end */
+
+/* copy right section */
+.copy-right{
+    display: flex;
+    width : 100%;
+    height: 4vh;
+    background-color: #202022;
+    align-items: center;
+    font-size : 12px;
+    font-family: 'ProximaNova-Regular',sans-serif;
+}
+.copy-right span {
+    margin-left : 8%;
+    color : #707070;
+
+} 
+.privacy-policy-highlight {color : #8C6043;}
+
+/* copy right section end */
