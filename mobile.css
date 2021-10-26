@@ -1,0 +1,141 @@
+/* Defaults */
+
+#mobile-burger {
+    display: none;
+}
+
+
+/* Defaults end */
+
+
+
+@media screen and (max-width: 1200px) {
+header nav ul li a .hidden-icons{display: inline;}
+* {
+    margin : 0 ;
+    padding : 0 ;
+    
+}
+header {
+    width : 100% ;
+    height: 60vh;
+    overflow: hidden;
+}
+ header nav {
+    width :100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    align-items: flex-start;
+  
+}
+.logo {display: none;}
+
+
+#mobile-burger {
+    display: inline;
+    font-size :50px;
+    color :#fff;
+    transition: all 0.5s ease-in-out;
+}
+#mobile-burger:active{color:rgb(173, 170, 170);}
+
+#Mobile-iTems {
+    display: none;
+    flex-direction: column;
+    position:fixed;
+    top: 20px;
+    margin-top : 50px; 
+    width : 100%;
+    background-color : #F28E58;
+
+}
+ 
+header nav ul li {
+    width : 100%;
+    margin-left : 0 ;
+    margin-right : 0 ;
+    padding-top: 20px;
+
+}
+
+header nav ul li:last-child {border-top:none; padding-bottom:10px;}
+
+
+header nav ul li a {
+    padding-top: 20px;
+    padding-left : 10px;
+    color :#fff;
+}
+.container-Header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container-Header  h1{
+    font-size : 40px;
+}
+.container-header-qoute{font-size :18px;margin-left: 20px;margin-right :2px}
+
+header nav ul li a:active {color:rgb(173, 170, 170); }
+
+.container{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+
+}
+.sections-titles{
+    font-size : 22px;
+}
+.section-parag{font-size : 16px}
+.top-section {display: flex;flex-direction: column; }
+
+input[type=text]{
+    width : 80vw;
+}
+textarea {
+    width : 80vw;
+}
+
+input[type=submit] {
+    width :120px; 
+    height: 50.6px;
+    font-size : 10px;
+    align-self: flex-end;
+    margin-right:40px;
+}
+
+.right-section{
+    margin-top : 100px;
+}
+.social-median-section{
+    display: flex;
+    flex-direction: column;
+}
+.image-and-parag{margin-left : 15px;}
+.social-img{
+    width: 44px; margin-right : 20px;
+}
+.social-parag{
+    font-size : 12px;
+
+}
+
+footer  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+footer ul  {
+    margin-left : 50px;
+}
+footer ul li:last-child{
+    margin-bottom : 50px;
+}
+
+footer ul li a {
+    font-size : 14px!important;
+}
